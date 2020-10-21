@@ -17,7 +17,6 @@ Aplicación de cara al alumno que le permite ingresar con su matrícula a la eva
   - Encuesta de Satisfacción
 
 # Diagrama de Login
-<<<<<<< HEAD
 ![Diagrama Login](docs/img/diagrama_login.png)
 
 # Diagrama de Cuestionario
@@ -48,4 +47,3 @@ Para extrapolar el diagrama de abajo con la programación, se debe entender que 
 | Sweet Alert | https://sweetalert2.github.io/ |
 =======
 | Sweet Alert | https://sweetalert2.github.io/ |
->>>>>>> e2e676f6e9e2fa97cbe26a95da7abf935b79c194
