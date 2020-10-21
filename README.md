@@ -2,7 +2,7 @@
 
 Aplicación web que permite a los alumnos de la Universidad Alva Edison evaluar el desempeño académico y laboral a Docentes y Administrativos durante el transcurso de un semestre. Por otro lado, permite a los administrativos encargados de la evaluación conocer, mediante gráficas, el desempeño de lo Docentes y Administrativos. 
 
-Está constituido por tre partes esenciales:
+Está constituido por tres partes esenciales:
 
   - APEVAD API
   - APEVAD Alumno
