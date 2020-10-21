@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.administrativos {
+  background: linear-gradient(-20deg, #ffb347, #ffcc33);
+}
+
+.administrativos:hover {
+  background: linear-gradient(-20deg, #ffb347, #ffcc33);
+}
+
+.bar {
+  height: 10px;
+  background-image: linear-gradient(rgba(210, 151, 0, 0.726), rgba(210, 151, 0, 0.726));
+}
+
+body.loading {
+  overflow: hidden;
+}
+
+body.loading .modal {
+  display: block;
+}
+
+.box {
+  padding: 0% !important;
+}
+
+.cir-img img {
+  width: 120px;
+  height: 120px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.color-uae {
+  background-color: #248B54 !important;
+}
+
+.form-body {
+  padding: 0 !important;
+  background-color: #fff;
+}
+
+.form-cont {
+  background-color: rgb(255, 255, 255);
+  color: #686767;
+  text-align: center;
+}
+
+.form-cont p {
+  font-size: 1em;
+  margin: 10px 0 !important;
+}
+
+.form-group {
+  margin: 0 !important;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, .8) url('../../ima/otros/carga.gif') 50% 50% no-repeat;
+}
+
+.prog-bar {
+  width: 100%;
+  background-color: white;
+}
+
+.docentes {
+  background-image: linear-gradient(-20deg, #0ba360, #3cba92);
+}
+
+.docentes:hover {
+  background-image: linear-gradient(-20deg, #0ba360, #3cba92);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.satisfaccion {
+  background: linear-gradient(-20deg, #0f2027, #203a43, #2c5364);
+}
+
+.satisfaccion:hover {
+  background: linear-gradient(-20deg, #0f2027, #203a43, #2c5364);
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+  html {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media (max-width:1023px) {
+  .height-60 {
+    height: 57vh;
+    min-height: 57vh;
+    max-height: 57vh;
+  }
+
+  .height-40 {
+    height: 40vh;
+    min-height: 40vh;
+    max-height: 40vh;
+  }
+
+  .container {
+    max-width: 100%;
+    height: 100vh;
+  }
+
+  .center {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  h5 {
+    font-size: 1.5em;
+  }
+
+  span {
+    font-size: 1.2em;
+  }
+
+  input {
+    display: none;
+  }
+}
+
+@media (min-width:1024px) {
+  body {
+    background-color: #EEEEEE;
+  }
+
+  .box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+
+  .cir-img img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .form-body {
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+  }
+
+  .form-head {
+    border-radius: 10px 10px 0 0;
+    padding: 0 !important;
+    background-color: #fff;
+  }
+
+  #txtPregunta {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px !important;
+  }
+}
+
+@keyframes slidebg {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -100px 0;
+  }
+}

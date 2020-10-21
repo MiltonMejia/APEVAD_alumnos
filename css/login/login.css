@@ -1,0 +1,115 @@
+html {
+  font-size: 1.2rem !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  background-color: #248B54 !important;
+}
+
+.height-33 {
+  height: 33%;
+  margin: 0 !important;
+}
+
+.height-50 {
+  height: 50%;
+  margin: 0 !important;
+}
+
+.center {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-control {
+  border-radius: 4px 4px 0 0 !important;
+  border-bottom: 1px #757575 solid !important;
+  box-shadow: none !important;
+}
+
+.form-control:hover {
+  border-bottom: 2px #248B54 solid !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  border-bottom: 2px #248B54 solid !important;
+}
+
+.image-fill {
+  height: 630px;
+  background: linear-gradient(#248b54b9, rgba(36, 139, 84, .726)), url(../../ima/login/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 170% 120%;
+  background-position: center top;
+  border-radius: 10px 0 0 10px;
+}
+
+.img-log img {
+  width: 50%;
+  height: auto;
+}
+
+.form-control {
+  height: 60px;
+}
+
+.modal-header {
+  background-color: #248B54 !important;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, .8) url('../../ima/otros/carga.gif') 50% 50% no-repeat;
+}
+
+@media (max-width:1023px) {
+  main>section {
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .image-fill {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .img-log img {
+    width: 30%;
+  }
+}
+
+@media (min-width:1024px) {
+  body {
+    background-color: #EEEEEE;
+    overflow-x: hidden;
+    display: flex;
+  }
+
+  .ccenter {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../../css/material/material.min.css" rel="stylesheet">
+    <link href="../../css/cuestionario/cuestionario.css" rel="stylesheet">
+    <link rel="icon" href="../../ico/icon_page.png">
+    <title>Evaluación docente - Encuesta sobre Docentes</title>
+</head>
+
+<body>
+
+    <div class="container card box">
+
+        <section id="colorEncuestado" class="form-head height-40 docentes">
+            <div class="cir-img text-center center p-5 text-white">
+                <img id="imgencuesta" src="../../ima/otros/uae_logo.png" class="rounded-circle">
+                <h2 id="txtnombre" class="my-3">Universidad Alva Edison</h2>
+                <span>Licenciatura</span>
+                <h3 id="txtlicenciatura">Encuesta</h3>
+            </div>
+        </section>
+
+        <section class="prog-bar">
+            <div class="bar"></div>
+        </section>
+
+        <section class="form-body height-60">
+            <div class="form-cont center py-5 px-3">
+                <p>Selecciona un emotícono de indique el nivel de satisfacción.</p>
+                <form>
+                    <div class="form-group">
+
+                        <h5 id="txtPregunta"></h5>
+                        
+                        <div class="btn-group btn-group-fluid mt-3 mb-5" data-toggle="buttons" role="group">
+                            <label class="btn btn-outline btn-lg" data-toggle="tooltip" data-placement="top"
+                                title="Insuficiente">
+                                <i class="material-icons">mood_bad</i>
+                                <input type="radio" name="group" value="5" id="val-5" autocomplete="off" checked>
+                            </label>
+                            <label class="btn btn-outline btn-lg" data-toggle="tooltip" data-placement="top"
+                                title="Suficiente">
+                                <i class="material-icons">sentiment_very_dissatisfied</i>
+                                <input type="radio" name="group" value="6" id="val-6" autocomplete="off" checked>
+                            </label>
+                            <label class="btn btn-outline btn-lg" data-toggle="tooltip" data-placement="top"
+                                title="Regular">
+                                <i class="material-icons">sentiment_dissatisfied</i>
+                                <input type="radio" name="group" value="7" id="val-7" autocomplete="off" checked>
+                            </label>
+                            <label class="btn btn-outline btn-lg" data-toggle="tooltip" data-placement="top"
+                                title="Bueno">
+                                <i class="material-icons">sentiment_satisfied</i>
+                                <input type="radio" name="group" value="8" id="val-8" autocomplete="off" checked>
+                            </label>
+                            <label class="btn btn-outline btn-lg" data-toggle="tooltip" data-placement="top"
+                                title="Muy bueno">
+                                <i class="material-icons">sentiment_satisfied_alt</i>
+                                <input type="radio" name="group" value="9" id="val-9" autocomplete="off" checked>
+                            </label>
+                            <label class="btn btn-outline btn-lg" data-toggle="tooltip" data-placement="top"
+                                title="Excelente">
+                                <i class="material-icons">sentiment_very_satisfied</i>
+                                <input type="radio" name="group" value="10" id="val-10" autocomplete="off" checked>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="button" id="btnEnviar"
+                        class="btn btn-lg px-5 mb-5 text-white color-uae">SIGUIENTE</button>
+                </form>
+                <h3 id="txtNumeroPregunta"></h3>
+            </div>
+        </section>
+    </div>
+</body>
+
+<div class="modal" id="loading"></div>
+
+<script type="text/javascript" src="../../js/librerias/popper/popper.min.js"></script>
+<script type="text/javascript" src="../../js/librerias/jquery/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="../../js/librerias/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../js/librerias/sweet_alert/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="../../js/librerias/material/material.min.js"></script>
+<script type="text/javascript" src="../../js/librerias/utilidades/utilidades.js"></script>
+<script type="text/javascript" src="../../js/cuestionario/clsCuestionario.js"></script>
+<script type="text/javascript" src="../../js/cuestionario/cuestionario.js"></script>
+
+</html>
